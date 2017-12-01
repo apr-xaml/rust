@@ -1,0 +1,6 @@
+[package]
+name = "Piazza"
+version = "0.1.0"
+authors = ["KMD\\Z6APR <apr@kmd.dk>"]
+
+[dependencies]

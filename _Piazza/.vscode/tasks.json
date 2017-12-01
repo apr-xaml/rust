@@ -1,0 +1,45 @@
+{
+    "version": "2.0.0",
+    "presentation": {
+        "reveal": "always",
+        "panel": "new"
+    },
+    "tasks": [
+        {
+            "taskName": "cargo build",
+            "type": "shell",
+            "command": "cargo",
+            "args": [
+                "build",
+                "--manifest-path=problems/Cargo.toml"
+                
+            ],
+            
+            "group": "build",
+            "problemMatcher": "$rustc"
+        },
+        {
+            "taskName": "cargo test",
+
+          
+            "type": "shell",
+            "command": "cargo",
+            "args": [
+                "test",
+                "--manifest-path=problems/Cargo.toml"
+            ],
+            "group": "test",
+            "problemMatcher": "$rustc"
+        },
+        {
+            "taskName": "cargo clean",
+            "type": "shell",
+            "command": "cargo",
+            "args": [
+                "clean",
+                "--manifest-path=problems/Cargo.toml"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}

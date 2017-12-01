@@ -1,0 +1,6 @@
+[package]
+name = "testProj"
+version = "0.1.0"
+authors = ["Z6APR"]
+
+[dependencies]
